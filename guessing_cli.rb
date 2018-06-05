@@ -1,5 +1,5 @@
 # Code your solution here!
-def guessing_cli
+def guessing_cli 
   loop do
     puts "Guess a number between 1 and 6" 
     guess = gets.chomp
