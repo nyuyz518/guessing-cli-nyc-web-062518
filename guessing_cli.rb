@@ -1,9 +1,9 @@
 # Code your solution here!
 def guessing_cli
   loop do
-    puts "Guess a number:" 
+    puts "Guess a number between 1 and 6" 
     guess = gets.chomp
-    number = rand(1..n)
+    number = rand(1..6)
     if guess == "exit"
       puts "Goodbye"
       break
